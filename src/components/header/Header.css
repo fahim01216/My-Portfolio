@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 120vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -29,19 +29,20 @@ header {
     position: absolute;
     left: 0;
     bottom: 3rem;
+    width: 1rem;
 }
 
 .header__socials::after {
     content: '';
     width: 1px;
-    height: 2rem;
+    height: 3rem;
     background: var(--color-primary);
 }
 
 /* ###################### ME ###################### */
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    /* background: linear-gradient(var(--color-primary), transparent); */
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -49,7 +50,7 @@ header {
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 0.1rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* ###################### Scroll Down ###################### */
@@ -60,6 +61,7 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 200;
+    font-size: 0.9rem;
 }
 
 /* ###################### Media Queries (Medium Devices) ###################### */

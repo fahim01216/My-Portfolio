@@ -14,7 +14,7 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={ME} alt='About' />
+            <img src={ME} alt='About Image' />
           </div>
         </div>
 
@@ -25,19 +25,15 @@ const About = () => {
               <h5>Experience</h5>
               <small>Almost 2 Years Working in Cognizant</small>
             </article>
-          </div>
-        </div>
 
-        <div className='about__content'>
-          <div className='about__cards'>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
               <small>10+ Completed</small>
             </article>
-          </div>
-          
+          </div>  
           <p>
+            My name is Fahim.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
