@@ -1,6 +1,6 @@
 header {
     height: 120vh;
-    padding-top: 7rem;
+    padding-top: 6rem;
     overflow: hidden;
 }
 
@@ -48,7 +48,7 @@ header {
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 14rem 14em 0 0;
+    border-radius: 15rem 15em 0 0;
     overflow: hidden;
     padding: 0rem 1.5rem 1.5rem 1.5rem;
 }
@@ -75,11 +75,11 @@ header {
 /* ###################### Media Queries (Medium Devices) ###################### */
 
 @media screen and (max-width: 600px) {
-    .container {
-        width: var(--container-width-sm);
+    header {
+        height: 100vh;
     }
 
-    section > h2 {
-        margin-bottom: 2rem;
+    .header__socials, .scroll__down {
+        display: none;
     }
 }
