@@ -33,7 +33,9 @@ const About = () => {
             </article>
           </div>  
           <p>
-            My name is Fahim.
+            I'm passionate about my work. Because I love what I do. I thrive on challenge's and constantly 
+            set goals for myself, so I have something to strive towards. I'm always looking for an 
+            opportunity to do better. I'm always open to learn new technology.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
