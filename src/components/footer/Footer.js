@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import {FaFacebookF} from 'react-icons/fa';
 import {FaInstagram} from 'react-icons/fa';
-import {FaTwitter} from 'react-icons/fa';
+import {FaTwitter, FaWhatsapp} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
       <div className='footer_socials'>
         <a href='https://facebook.com'><FaFacebookF/></a>
         <a href='https://instagram.com'><FaInstagram/></a>
-        <a href='https://twitter.com'><FaTwitter/></a>
+        <a href='https://api.whatsapp.com/send?phone=917870697471'><FaWhatsapp/></a>
       </div>
 
       <div className='footer_copyright'>

@@ -1,8 +1,9 @@
 import React from 'react';
 import './Contact.css';
 import {MdOutlineMail} from 'react-icons/md';
-import {RiInstagramLine} from 'react-icons/ri';
 import {FaWhatsapp} from 'react-icons/fa';
+import {FiGithub} from 'react-icons/fi';
+import {BsInstagram} from 'react-icons/bs';
 
 const Contact = () => {
   return (
@@ -20,10 +21,9 @@ const Contact = () => {
           </article>
 
           <article className='contact_option'>
-            <RiInstagramLine className='contact_option-item'/>
+            <BsInstagram className='contact_option-item'/>
             <h4>Instagram</h4>
-            <h5>m_fahim012</h5>
-            <a href='https://www.instagram.com/m_fahim012/' target={'_blank'}>Send a message</a>
+            <a href='https://www.instagram.com/m_fahim012/' target={'_blank'}><h4>Send a message</h4></a>
           </article>
 
           <article className='contact_option'>

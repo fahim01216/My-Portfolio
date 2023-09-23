@@ -23,7 +23,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>Almost 2 Years Working in Cognizant</small>
+              <small>2+ Years of experience. Working in Cognizant</small>
             </article>
 
             <article className='about__card'>
@@ -33,9 +33,10 @@ const About = () => {
             </article>
           </div>  
           <p>
-            I'm passionate about my work. Because I love what I do. I thrive on challenge's and constantly 
-            set goals for myself, so I have something to strive towards. I'm always looking for an 
-            opportunity to do better. I'm always open to learn new technology.
+            I'm passionate software engineer with over 2 years of experience specializing in backend development. 
+            I thrive on the challenges of crafting efficient, scalable, and robust solutions that power the digital 
+            world. My journey in the realm of technology is a testament to my dedication to continuous learning and 
+            my commitment to delivering high-quality software.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
